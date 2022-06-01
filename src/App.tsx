@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Login from './components/Login';
@@ -12,12 +11,7 @@ const App = () => {
   return (
 	<div id="routers">
 		<Router>
-			<>	
-				<Routes>					
-          <Route path='/welcome' element={<Home/>} />
-				</Routes>
-			</>
-			: <Login />
+			<Home />
 		</Router>
 	</div>
   );

@@ -2,8 +2,17 @@ import "./Loading.css";
 
 const Loading = () => {
   return (
-	<div id="contSpin">  
-		<div id="spinner"></div>
+	<div className="waves-container">
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
+		<div className="wave"></div>
 	</div>
   );
 };

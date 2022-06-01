@@ -1,0 +1,49 @@
+body{
+    background-color: #131313;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changing-text{
+    text-transform: uppercase;
+    color: #fff;
+    font-family:verdana;
+    font-size: 40px;
+}
+
+.texts-container{
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    color: #ff7a00;
+}
+
+.texts-container span{
+    display: block;
+    animation: moveUp 8s infinite;
+}
+
+@keyframes moveUp{
+    0%{
+        transform: translateY(0);
+    }
+
+    25%{
+        transform: translateY(-26%);
+    }
+
+    50%{
+        transform: translateY(-51%);
+    }
+
+    75%{
+        transform: translateY(-76%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
