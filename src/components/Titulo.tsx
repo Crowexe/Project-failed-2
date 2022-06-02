@@ -4,7 +4,7 @@ const Titulo = () => {
   return (
       <>
         <h1 className="changing-text">
-            &nbsp;Fly me to&nbsp;           
+            &nbsp;Fly me to&nbsp;
             <div className="texts-container">
                 <span>
                         Japón<br/>
