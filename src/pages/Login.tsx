@@ -8,7 +8,8 @@ export default function Login() {
 		<Titulo />
 		<div className="login-container">
 			<div className="login-box">
-			<h2>Login</h2>
+			<img className="user-avatar" src="https://i.imgur.com/lV8Y7L1.png" alt="user profile image" />
+			<h2>INICIA SESIÓN</h2>
 			<form>				
 				<div className="user-box">
 					<input type="text" />
@@ -23,7 +24,7 @@ export default function Login() {
 					<span></span>
 					<span></span>
 					<span></span>
-					Submit
+					log in
 				</a>
 			</form>
 			</div>

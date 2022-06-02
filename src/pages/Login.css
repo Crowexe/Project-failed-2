@@ -6,7 +6,8 @@ body {
     margin: 0;
     height: 100vh;
 }
-  
+
+
 .login-box {
     position: absolute;
     top: 50%;
@@ -18,16 +19,27 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
 }
-
-
   
-  .login-box h2 {
-    font-size: 50px;
-    margin: 0 0 50px;
+.user-avatar {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -90px;
+    left: calc(45% - 50px);
+}
+
+
+.login-box h2 {
+    font-size: 30px;
     padding: 0;
+    margin: 45px;
     color: #fff;
     text-align: center;
-  }
+}
   
   .login-box .user-box {
     position: relative;
@@ -44,6 +56,7 @@ body {
     outline: none;
     background: transparent;
   }
+
   .login-box .user-box label {
     position: absolute;
     top:0;
@@ -78,13 +91,16 @@ body {
   }
   
   .login-box a:hover {
-    background: #fff;
+    background: rgba(255, 255, 255, .5);
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #fff,
                 0 0 25px #fff,
                 0 0 50px #fff,
                 0 0 100px #fff;
+    transform: scale(1.2); 
+    filter: grayscale(50%);
+
   }
   
   .login-box a span {
