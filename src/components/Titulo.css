@@ -1,17 +1,12 @@
-body{
-    background-color: #131313;
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .changing-text{
+    margin-left: 10px;
     text-transform: uppercase;
     color: #fff;
     font-family:verdana;
-    font-size: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: top; 
 }
 
 .texts-container{

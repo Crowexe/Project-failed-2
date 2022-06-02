@@ -1,6 +1,6 @@
 import "./Home.css";
-import Loading from "./Loading";
-import Titulo from "./Titulo";
+import Loading from "../components/Loading";
+import Titulo from "../components/Titulo";
 
 const Home = () => {
 

@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Login from './components/Login';
-import Home from './components/Home';
+import Login from './pages/Login';
+import Home from './pages/Home';
+import ReactDOM from 'react-dom';
 
 const App = () => {
   //const { user } = useUser();
@@ -11,11 +12,15 @@ const App = () => {
   return (
 	<div id="routers">
 		<Router>
-			<Home />
+			<Login />
 		</Router>
 	</div>
   );
 }
 
-
 export default App;
+
+
+if (document.getElementById('app')) {
+    ReactDOM.render(<App />, document.getElementById('app'));
+}
